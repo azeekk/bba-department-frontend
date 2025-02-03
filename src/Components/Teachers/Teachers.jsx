@@ -23,9 +23,9 @@ const Teachers = () => {
     axios
     .get("https://bca-department-backend-production.up.railway.app/api/collections") // Replace with your actual API endpoint
     .then((response) => {
-      const bcaTeachers = response.data.BCA;
-      console.log(bcaTeachers);
-      setData(bcaTeachers);
+      const bbaTeachers = response.data.BBA;
+      console.log(bbaTeachers);
+      setData(bbaTeachers);
       setLoading(false);
     })
     .catch((error) => {
@@ -60,7 +60,7 @@ const Teachers = () => {
         pagination={{clickable: true}}
         className="mySwiper"
       >
-        {data.map((teacher, index) => (
+        {data.map((teacher, index) => ( 
           <SwiperSlide key={index}>
             <div className="teachercard">
             <div className="teacherimage">
