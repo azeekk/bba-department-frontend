@@ -15,9 +15,7 @@ const Programs = () => {
         </div>
         <div className='bottom'>
         <h4 className='program_heading'>Programs</h4>
-        <p className='program_paragraph'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
-           cumque accusantium iusto vero aut delectus consectetur itaque dolorum quae
-            iste nostrum quod, distinctio magnam! Nulla quod ullam cupiditate quasi nostrum.</p>
+        <p className='program_paragraph'>The BBA Department focuses on developing students' business, management, and leadership skills. It provides a strong foundation in various aspects of business administration, including finance, marketing, human resources, and entrepreneurship.The BBA Department focuses on developing students' business, management, and leadership skills. It provides a strong foundation in various aspects of business administration, including finance, marketing, human resources, and entrepreneurship.</p>
           
         </div>
       </div>    
